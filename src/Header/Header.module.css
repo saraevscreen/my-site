@@ -1,0 +1,31 @@
+/* =============
+ ШАПКА!!!!!
+ ======================*/
+
+/* =============
+ Картинка в шапке (лого)
+ ======================*/
+ .header img{
+    width: 80px;
+  }
+  
+  .header{
+    background-color: dimgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+  
+    text-align: right;
+    font-weight: bold;
+    color: cornsilk;
+    font-size: 24px;
+  }
+  /* =============
+   Все ссылки в Шапке
+   ======================*/
+  .header a{
+    text-decoration: none;
+    color: cornsilk;
+    padding-left: 40px;
+  }

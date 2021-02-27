@@ -1,10 +1,10 @@
 import React from 'react';
-import './../App.css';
+import s from './Header.module.css';
 
 
 const Header = () => {
     return (
-            <div className='header'>
+            <div className={s.header}>
                 <div>
                     <a href='#s'>
                       <img href='#s' src='https://i.ibb.co/QQd9PPV/logo0001.png' alt='Logo'></img>
