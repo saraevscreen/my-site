@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header'
-import Footer from './Footer';
-import Profile from './Profile';
+import Header from './Header/Header'
+import Footer from './Footer/Footer';
+import Main from './Main/Main';
 
 const App = () => {
   return (
     <div className="all">
       <Header />
-      <Profile />
+      <Main />>
       <Footer />
     </div>
   );

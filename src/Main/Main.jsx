@@ -1,7 +1,8 @@
 import React from 'react';
+import './../App.css';
 
 
-const Profile = () => {
+const Main = () => {
     return (
       <div className='profile'>
         <div className='profile_left'>
@@ -21,4 +22,4 @@ const Profile = () => {
     )
   }
 
-  export default Profile;
+  export default Main;
