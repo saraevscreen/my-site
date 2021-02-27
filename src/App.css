@@ -1,0 +1,86 @@
+ /* =============
+ Общее значение элементов
+ ======================*/
+   body, html {
+    text-decoration: none;
+
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    
+/* =============
+ Подгружаем шрифты
+ ======================*/
+  
+    font-family: 'Comfortaa', cursive;
+    /*
+    
+    */
+    font-size: 18px;
+}
+
+
+
+/* =============
+ ШАПКА!!!!!
+ ======================*/
+
+/* =============
+ Картинка в шапке (лого)
+ ======================*/
+.header img{
+  width: 80px;
+}
+
+.header{
+  background-color: dimgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+
+  text-align: right;
+  font-weight: bold;
+  color: cornsilk;
+  font-size: 24px;
+}
+/* =============
+ Все ссылки в Шапке
+ ======================*/
+.header a{
+  text-decoration: none;
+  color: cornsilk;
+  padding-left: 40px;
+}
+
+
+.profile{
+  background-color: darkgray;
+  min-height: 420px;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  color:cornsilk;
+  padding: 60px 60px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.profile_left{
+  align-items: center;
+  width: 30%;
+  text-align: left;
+}
+
+.profile_left img{
+  max-height: 300px;
+}
+
+.profile_right{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 24px;
+}
